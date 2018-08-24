@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.timezone import now
 
 # Create your models here.
-class adminUser (models.Model):
+class AdminUser (models.Model):
     TYPE = (
         ('A', '管理员'),
         ('B', '普通用户')
